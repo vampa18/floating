@@ -1,0 +1,96 @@
+body{
+	background-color: green;
+}
+
+.navbar a{
+	color: white;
+	font-size: 40px;
+	display: inline;
+}
+
+.navbar-text li{
+	display: inline;
+    padding-left: 50px;
+    padding-top: 50px;
+    float: left;
+    text-transform: uppercase;
+    font-family: 'Myriad Pro';
+}
+
+a{
+   text-decoration: none;
+}
+
+header img{
+	width: 225px;
+	float:left;
+	padding-top: 50px;
+	margin-left: 80px;
+}
+
+.home-text1 {
+	display: inline-block;
+	margin-left: 250px;
+}
+
+.left-text {
+	display: inline-block;
+	background-color: yellow;
+	width: 500px;
+	height: 300px;
+	margin-left: 150px;
+	margin-top: 50px;
+	font-size: 14px;
+	text-transform: uppercase;
+	padding:10px;
+	
+
+}
+
+
+	
+.left-text img{
+    margin-top: 5px;
+    float: right;
+
+}
+
+
+
+.left-text-image::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+
+
+.right-text {
+	display: inline-block;
+	background-color: yellow;
+	width: 500px;
+	height: 300px;
+	margin-right: 150px;
+	margin-top: 50px;
+	font-size: 14px;
+	float: right;
+	padding: 10px;
+	text-transform: uppercase;
+	text-align:left;
+
+}
+
+
+	
+
+.right-text img{
+	float: left;
+	margin-left: 5px;
+	margin-top: 5px;
+
+}
+
+p {
+	display: inline-block;
+	float: left;
+}
